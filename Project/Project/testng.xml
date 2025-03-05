@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteInternship">
+  <test  name="LoginPageTest">
+    <classes>
+      <class name="testcases.LoginPageTest"/>
+    </classes>
+  </test>
+  
+  <test  name="AdminDashboardTest">
+    <classes>
+      <class name="testcases.AdminDashboardTest"/>
+    </classes>   
+  </test> <!-- Test -->
+  
+   <test  name="MentorDasboardTest">
+    <classes>
+      <class name="testcases.MentorDashboardTest"/>
+    </classes>
+  </test>
+  
+</suite> <!-- SuiteInternship -->
+
